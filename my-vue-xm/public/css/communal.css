@@ -1,0 +1,34 @@
+body,h1,h2,h3,h4,h5,h6,p,dl,dd,ul,ol,pre,form,input,textarea,th,td,
+		select{margin: 0;padding: 0;}
+		em{font-style: normal;}
+		li{list-style: none;}
+		a{text-decoration: none;color:#333;}
+		img{border:none;vertical-align: top;}
+		table{border-collapse: collapse;}
+		textarea{resize: none;overflow: auto;}
+		.clear{zoom:1;}
+		.clear:after{content:"";display: block;clear: both;}
+
+html {
+	box-sizing: border-box;
+}
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+body {
+	font-family: PingFang SC, "微软雅黑", arial, helvetica, clean, sans-serif;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	word-wrap: break-word;
+	line-height: 1.15;
+	font-size: 13px;
+}
+img {
+	line-height: 1;
+	font-size: 0;
+	vertical-align: top;
+	height: auto;
+	max-width: 100%;
+}
